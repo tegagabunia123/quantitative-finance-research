@@ -4,7 +4,7 @@ This repository serves as a centralized development hub for proprietary quantita
 
 ## Production Interface
 The analytical modules contained within this repository are compiled dynamically and hosted as an interactive data application.
-* Live Deployment Interface: (https://quantitative-finance-research-4kqnm6j9omn7a9wjsdbhxk.streamlit.app/)
+* Live Deployment Interface: [(https://quantitative-finance-research-4kqnm6j9omn7a9wjsdbhxk.streamlit.app/)](https://quantitative-finance-research-4kqnm6j9omn7a9wjsdbhxk.streamlit.app/)
 
 ---
 
