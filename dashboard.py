@@ -5,7 +5,7 @@ import os
 
 matplotlib.use("Agg")
 
-st.sidebar.title("Quantitative Research Desk")
+st.sidebar.title("Main Desk")
 
 category = st.sidebar.selectbox(
     "Select Research Domain",
