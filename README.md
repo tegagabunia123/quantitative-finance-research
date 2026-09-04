@@ -12,6 +12,8 @@ The analytical modules contained within this repository are compiled dynamically
 
 The underlying architecture is segmented into dedicated development directories organized by core financial disciplines, containing executable scripts, quantitative data structures, and mathematical modeling pipelines.
 
+**!!! Note: The data streams running inside these applications dynamically evaluate live market matrices over a rolling 6-year lookback timeframe, ensuring all statistical relationships automatically capture long-term structural regimes up to 2026. !!!**
+
 Primary core competencies covered within this repository include:
 * **Asset Allocation and Optimization Metrics:** Mathematical models engineered to construct and evaluate risk-adjusted portfolios using live index parameters and yield matrices.
 * **Systematic Backtesting Systems:** Implementation of historical data evaluation models, structural correlation analysis, and data cleanup parameters.
