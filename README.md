@@ -28,7 +28,7 @@ To replicate the workspace configuration parameters and execute the scripts loca
 git clone https://github.com
 
 # Enter the root workspace directory
-cd YOUR_REPO_NAME
+cd quantitative-finance-research
 
 # Install the tracking package dependencies
 pip install -r requirements.txt
