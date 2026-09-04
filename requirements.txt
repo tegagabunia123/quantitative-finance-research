@@ -1,9 +1,0 @@
-pandas
-matplotlib
-yfinance
-pandas_datareader
-requests
-numpy
-scipy
-statsmodels
-seaborn
