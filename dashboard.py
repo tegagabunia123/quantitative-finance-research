@@ -15,7 +15,7 @@ if page == "graph-theory-portfolios":
     st.title("Network-Based Portfolio Analytics Matrix")
     
     # Target path inside your folder
-    file_path = os.path.join("graph-theory-portfolios", "portfolio_risk_and_return_bar_chart_comparsion.py")
+    file_path = os.path.join("graph-theory-portfolios", "correlation_heatmap_of_stock_returns.py")
     
     if os.path.exists(file_path):
         with open(file_path, "r", encoding="utf-8") as f:
