@@ -1,6 +1,11 @@
 import streamlit as st
+import sys
+import os
 
-st.sidebar.title("Main Desk")
+sys.path.append(os.path.abspath("graph-theory-portfolios"))
+sys.path.append(os.path.abspath("qt-macro-liquidity"))
+
+st.sidebar.title("Quantitative Research Desk")
 
 page = st.sidebar.radio(
     "Select Research Track", 
