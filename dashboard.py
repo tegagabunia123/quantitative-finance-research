@@ -13,7 +13,7 @@ page = st.sidebar.radio(
 )
 
 if page == "graph-theory-portfolios":
-    import portfolio_risk_and_return_bar_chart_comparsion
+    import portfolio_risk_and_return_bar_chart_comparsion.py
 
 elif page == "qt-macro-liquidity":
-    import fed_balance_sheet_vs_sandp500_and_vix
+    import fed_balance_sheet_vs_sandp500_and_vix.py
