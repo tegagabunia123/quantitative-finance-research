@@ -1,0 +1,8 @@
+pandas
+matplotlib
+yfinance
+pandas_datareader
+requests
+networkx
+seaborn
+statsmodel
