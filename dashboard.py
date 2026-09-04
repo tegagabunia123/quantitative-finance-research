@@ -5,7 +5,7 @@ import os
 
 matplotlib.use("Agg")
 
-st.sidebar.title("Quantitative Research Desk")
+st.sidebar.title("Main Desk")
 
 page = st.sidebar.radio(
     "Select Research Track", 
