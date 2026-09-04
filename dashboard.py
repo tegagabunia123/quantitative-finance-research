@@ -30,7 +30,7 @@ if page == "graph-theory-portfolios":
 elif page == "qt-macro-liquidity":
     st.title("Rolling Correlation: Fed Balance Sheet vs VIX")
     
-    file_path = os.path.join("qt-macro-liquidity", "fed_balance_sheet_vs_sandp500_and_vix.py.py")
+    file_path = os.path.join("qt-macro-liquidity", "fed_balance_sheet_vs_sandp500_and_vix.py")
     
     if os.path.exists(file_path):
         with open(file_path, "r", encoding="utf-8") as f:
