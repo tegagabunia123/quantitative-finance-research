@@ -5,7 +5,7 @@ import os
 
 matplotlib.use("Agg")
 
-st.sidebar.title("Main Desk")
+st.sidebar.title("Quantitative Research Desk")
 
 category = st.sidebar.selectbox(
     "Select Research Domain",
@@ -25,6 +25,9 @@ if category == "graph-theory-portfolios":
             "Transformation from Correlation to Distance"
         ]
     )
+    
+    st.title("Network-Based Portfolio Analytics Matrix")
+    st.caption("Note: All network architectures and statistical metrics are processed dynamically over a rolling 6-year lookback timeframe.")
     
     if page == "Risk-Return Comparison of the Two Portfolios":
         file_path = os.path.join("graph-theory-portfolios", "risk-return_comparison_of_the_two_portfolios.py")
@@ -52,6 +55,9 @@ elif category == "qt-macro-liquidity":
             "Fed Balance Sheet vs S&P 500 and VIX"
         ]
     )
+    
+    st.title("Rolling Correlation: Fed Balance Sheet vs VIX")
+    st.caption("Note: All macroeconomic data indicators and rolling correlation vectors utilize an active 6-year data collection framework.")
     
     if page == "VIX Changes After QT Announcements":
         file_path = os.path.join("qt-macro-liquidity", "vix_changes_after_qt_announcements.py")
