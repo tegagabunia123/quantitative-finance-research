@@ -14,9 +14,8 @@ The underlying architecture is segmented into dedicated development directories 
 
 Primary core competencies covered within this repository include:
 * **Asset Allocation and Optimization Metrics:** Mathematical models engineered to construct and evaluate risk-adjusted portfolios using live index parameters and yield matrices.
-* **Macroeconomic Liquidity Vectors:** Systematic data processing tracking central bank balance sheet aggregates alongside equity volatility benchmarks to isolate macro regimes.
 * **Systematic Backtesting Systems:** Implementation of historical data evaluation models, structural correlation analysis, and data cleanup parameters.
-
+* **AND MORE**
 ---
 
 ## Deployment and Local Execution
